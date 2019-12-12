@@ -7,7 +7,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [ ] JS Drum Kit
 - [x] JS and CSS Clock
 - [x] CSS Variables
-- [ ] Array Cardio Day 1
+- [x] Array Cardio Day 1
 - [ ] Flex Panel Gallery
 - [ ] Type Ahead
 - [ ] Array Cardio Day 2

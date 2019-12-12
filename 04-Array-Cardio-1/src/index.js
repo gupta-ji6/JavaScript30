@@ -1,6 +1,3 @@
-// Get your shorts on - this is an array workout!
-// ## Array Cardio Day 1
-// Some data we can work with
 const inventors = [
   { first: "Albert", last: "Einstein", year: 1879, passed: 1955 },
   { first: "Isaac", last: "Newton", year: 1643, passed: 1727 },
@@ -15,6 +12,7 @@ const inventors = [
   { first: "Lise", last: "Meitner", year: 1878, passed: 1968 },
   { first: "Hanna", last: "Hammarström", year: 1829, passed: 1909 }
 ];
+
 const people = [
   "Beck, Glenn",
   "Becker, Carl",
@@ -58,19 +56,68 @@ const people = [
   "Blair, Tony",
   "Blake, William"
 ];
-// Array.prototype.filter()
+
+// Array.protot ype.filter()
 // 1. Filter the list of inventors for those who were born in the 1500's
+const fifteen = inventors.filter(
+  inventor => inventor.year >= 1500 && inventor.year < 1600
+);
+console.table(fifteen);
+
 // Array.prototype.map()
 // 2. Give us an array of the inventors' first and last names
+const fullNames = inventors.map(
+  inventor => `${inventor.first} ${inventor.last}`
+);
+console.log(fullNames);
+
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdate, oldest to youngest
+const sorted = inventors.sort((a, b) => (a.year > b.year ? 1 : -1));
+console.table(sorted);
+
 // Array.prototype.reduce()
 // 4. How many years did all the inventors live?
+const totalYears = inventors.reduce(
+  (total, inventor) => total + (inventor.passed - inventor.year),
+  0
+);
+console.log(totalYears);
+
 // 5. Sort the inventors by years lived
+const oldest = inventors.sort((a, b) => {
+  const lastGuy = a.passed - a.year;
+  const nextGuy = b.passed - b.year;
+  return lastGuy > nextGuy ? -1 : 1;
+});
+console.table(oldest);
+
 // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+
+// const category = document.querySelector(".mw-category");
+
+// const links = category.querySelectorAll('a');
+// the above returns a NodeList, not an array. NodeList is like an array but doesn't contain all of the array methods.
+// We can convert to array in two ways.
+//1. const links = [...category.querySelectorAll('a')]
+//2. below
+
+// const links = Array.from(category.querySelectorAll("a"));
+
+// const de = links
+//   .map(link => link.textContent)
+//   .filter(streetName => streetName.includes("de"));
+
 // 7. sort Exercise
 // Sort the people alphabetically by last name
+const alpha = people.sort((lastOne, nextOne) => {
+  const [aLast, aFirst] = lastOne.split(", ");
+  const [bLast, bFirst] = nextOne.split(", ");
+  return aLast > bLast ? 1 : -1;
+});
+console.log(alpha);
+
 // 8. Reduce Exercise
 // Sum up the instances of each of these
 const data = [
@@ -89,3 +136,13 @@ const data = [
   "car",
   "truck"
 ];
+
+const transportation = data.reduce((obj, item) => {
+  if (!obj[item]) {
+    obj[item] = 0;
+  }
+  obj[item]++;
+  return obj;
+}, {});
+
+console.log(transportation);
