@@ -15,10 +15,13 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
 .panels {
   min-height: 100vh;
   overflow: hidden;
+  display: flex;
 }
+
 .panel {
   background: #6b0f9c;
   box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
@@ -32,7 +35,12 @@ body {
   font-size: 20px;
   background-size: cover;
   background-position: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .panel1 {
   background-image: url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500);
 }
@@ -48,12 +56,31 @@ body {
 .panel5 {
   background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
 }
+
 /* Flex Children */
 .panel > * {
   margin: 0;
   width: 100%;
   transition: transform 0.5s;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.panel > *:first-child {
+  transform: translateY(-100%);
+}
+.panel.open-active > *:first-child {
+  transform: translateY(0);
+}
+.panel > *:last-child {
+  transform: translateY(100%);
+}
+.panel.open-active > *:last-child {
+  transform: translateY(0);
+}
+
 .panel p {
   text-transform: uppercase;
   font-family: "Amatic SC", cursive;
@@ -66,4 +93,5 @@ body {
 }
 .panel.open {
   font-size: 40px;
+  flex: 5;
 }

@@ -8,7 +8,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] JS and CSS Clock
 - [x] CSS Variables
 - [x] Array Cardio Day 1
-- [ ] Flex Panel Gallery
+- [x] Flex Panel Gallery
 - [ ] Type Ahead
 - [ ] Array Cardio Day 2
 - [ ] Fun with HTML5 Canvas
