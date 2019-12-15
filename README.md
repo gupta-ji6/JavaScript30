@@ -9,8 +9,8 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] CSS Variables
 - [x] Array Cardio Day 1
 - [x] Flex Panel Gallery
-- [ ] Type Ahead
-- [ ] Array Cardio Day 2
+- [x] Type Ahead
+- [x] Array Cardio Day 2
 - [ ] Fun with HTML5 Canvas
 - [ ] Dev Tools Domination
 - [ ] Hold Shift and Check Checkboxes
