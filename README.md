@@ -5,13 +5,13 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 ## Todo Challenges
 
 - [ ] JS Drum Kit
-- [x] JS and CSS Clock
+- [x] [JS and CSS Clock](02-JS-CSS-Clock/index.html)
 - [x] CSS Variables
 - [x] Array Cardio Day 1
 - [x] Flex Panel Gallery
 - [x] Type Ahead
 - [x] Array Cardio Day 2
-- [ ] Fun with HTML5 Canvas
+- [x] Fun with HTML5 Canvas
 - [ ] Dev Tools Domination
 - [ ] Hold Shift and Check Checkboxes
 - [ ] Custom Video Player
