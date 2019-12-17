@@ -12,7 +12,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Type Ahead](06-Type-Ahead/index.html)
 - [x] [Array Cardio Day 2](07-Array-Cardio-2/index.html)
 - [x] [Fun with HTML5 Canvas](08-HTML5-Canvas/index.html)
-- [ ] Dev Tools Domination
+- [x] [Dev Tools Domination](09-Dev-Tools/index.html)
 - [ ] Hold Shift and Check Checkboxes
 - [ ] Custom Video Player
 - [ ] Key Sequence Detection
