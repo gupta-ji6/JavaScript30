@@ -14,7 +14,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Fun with HTML5 Canvas](08-HTML5-Canvas/index.html)
 - [x] [Dev Tools Domination](09-Dev-Tools/index.html)
 - [x] [Hold Shift and Check Checkboxes](10-Multiple-Check-Shift/index.html)
-- [ ] Custom Video Player
+- [x] [Custom Video Player](11-Custome-Video-Player/index.html)
 - [ ] Key Sequence Detection
 - [ ] Slide in on Scroll
 - [ ] JavaScript References vs Copying
