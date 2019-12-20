@@ -19,7 +19,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Slide in on Scroll](13-Slide-In-On-Scroll/index.html)
 - [x] JavaScript References vs Copying
 - [x] [LocalStorage](15-Localstorage/index.html)
-- [ ] Mouse Move Shadow
+- [x] [Mouse Move Shadow](16-Mousemove-Shadow/index.html)
 - [ ] Sort Without Articles
 - [ ] Adding Up Times with Reduce
 - [ ] Webcam Fun
