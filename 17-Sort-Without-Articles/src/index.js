@@ -18,10 +18,31 @@ function strip(bandName) {
   return bandName.replace(/^(a |the |an )/i, "").trim();
 }
 
-const sortedBands = bands.sort((a, b) => (strip(a) > strip(b) ? 1 : -1));
+const sortBandsByAsc = bands.sort((a, b) => (strip(a) < strip(b) ? -1 : 1));
 
-document.querySelector("#bands").innerHTML = sortedBands
+let bandsCopy = [...bands];
+const sortBandsByDesc = bandsCopy.sort((a, b) =>
+  strip(a) > strip(b) ? -1 : 1
+);
+
+const sortBtn = document.querySelector("#sort-btn");
+let sortByAsc = true;
+
+document.querySelector("#bands").innerHTML = sortBandsByAsc
   .map(band => `<li>${band}</li>`)
   .join("");
 
-console.log(sortedBands);
+sortBtn.addEventListener("click", () => {
+  sortByAsc = !sortByAsc;
+  if (sortByAsc) {
+    document.querySelector("#bands").innerHTML = sortBandsByAsc
+      .map(band => `<li>${band}</li>`)
+      .join("");
+    sortBtn.textContent = "Sort by Descending";
+  } else {
+    document.querySelector("#bands").innerHTML = sortBandsByDesc
+      .map(band => `<li>${band}</li>`)
+      .join("");
+    sortBtn.textContent = "Sort by Ascending";
+  }
+});
