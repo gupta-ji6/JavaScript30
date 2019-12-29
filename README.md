@@ -20,8 +20,8 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] JavaScript References vs Copying
 - [x] [LocalStorage](15-Localstorage/index.html)
 - [x] [Mouse Move Shadow](16-Mousemove-Shadow/index.html)
-- [ ] Sort Without Articles
-- [ ] Adding Up Times with Reduce
+- [x] [Sort Without Articles](17-Sort-Without-Articles/index.html)
+- [x] [Adding Up Times with Reduce](18-Add-Time-With-Reduce/index.html)
 - [ ] Webcam Fun
 - [ ] Speech Detection
 - [ ] Geolocation
