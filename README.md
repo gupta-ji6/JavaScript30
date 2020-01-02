@@ -25,7 +25,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [ ] Webcam Fun
 - [ ] Speech Detection
 - [ ] Geolocation
-- [ ] Follow Along Link Highlighter
+- [x] [Follow Along Link Highlighter](22-Follow-Along-Link/index.html)
 - [ ] Speech Synthesis
 - [ ] Sticky Nav
 - [ ] Event Capture, Propogation, Bubbling and Once
