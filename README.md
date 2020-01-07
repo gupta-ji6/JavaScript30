@@ -17,7 +17,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Custom Video Player](11-Custome-Video-Player/index.html)
 - [x] [Key Sequence Detection](12-Key-Sequence-Detection/index.html)
 - [x] [Slide in on Scroll](13-Slide-In-On-Scroll/index.html)
-- [x] JavaScript References vs Copying
+- [ ] JavaScript References vs Copying
 - [x] [LocalStorage](15-Localstorage/index.html)
 - [x] [Mouse Move Shadow](16-Mousemove-Shadow/index.html)
 - [x] [Sort Without Articles](17-Sort-Without-Articles/index.html)
