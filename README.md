@@ -27,7 +27,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [ ] Geolocation
 - [x] [Follow Along Link Highlighter](22-Follow-Along-Link/index.html)
 - [ ] Speech Synthesis
-- [ ] Sticky Nav
+- [x] [Sticky Nav](24-Sticky-Nav/index.html)
 - [ ] Event Capture, Propogation, Bubbling and Once
 - [ ] Stripe Follow Along Nav
 - [ ] Click and Drag
