@@ -31,6 +31,6 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [ ] Event Capture, Propogation, Bubbling and Once
 - [ ] Stripe Follow Along Nav
 - [ ] Click and Drag
-- [ ] Video Speed Controller
+- [x] [Video Speed Controller](28-Video-Speed-Controller/ondex.html)
 - [ ] Countdown Timer
 - [ ] Whack A Mole
