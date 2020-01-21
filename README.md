@@ -30,7 +30,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Sticky Nav](24-Sticky-Nav/index.html)
 - [ ] Event Capture, Propogation, Bubbling and Once
 - [ ] Stripe Follow Along Nav
-- [ ] Click and Drag
+- [x] [Click and Drag](27-Click-Drag-Scroll/index.html)
 - [x] [Video Speed Controller](28-Video-Speed-Controller/ondex.html)
 - [ ] Countdown Timer
 - [ ] Whack A Mole
