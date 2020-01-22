@@ -29,7 +29,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [ ] Speech Synthesis
 - [x] [Sticky Nav](24-Sticky-Nav/index.html)
 - [x] [Event Capture, Propogation, Bubbling and Once](25-EventCapture-Propogation-Bubbling/index.html)
-- [ ] Stripe Follow Along Nav
+- [x] [Stripe Follow Along Nav](26-Stripe-Nav/index.html)
 - [x] [Click and Drag](27-Click-Drag-Scroll/index.html)
 - [x] [Video Speed Controller](28-Video-Speed-Controller/ondex.html)
 - [ ] Countdown Timer
