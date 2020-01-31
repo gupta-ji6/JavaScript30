@@ -4,7 +4,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 
 ## Todo Challenges
 
-- [ ] JS Drum Kit
+- [x] [JS Drum Kit](01-JS-Drum-Kit/index.html)
 - [x] [JS and CSS Clock](02-JS-CSS-Clock/index.html)
 - [x] [CSS Variables](03-CSS-Variables/index.html)
 - [x] [Array Cardio Day 1](04-Array-Cardio-1/index.html)
