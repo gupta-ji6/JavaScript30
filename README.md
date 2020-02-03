@@ -33,4 +33,4 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Click and Drag](27-Click-Drag-Scroll/index.html)
 - [x] [Video Speed Controller](28-Video-Speed-Controller/ondex.html)
 - [x] [Countdown Timer](29-Countdown-Timer/index.html)
-- [ ] Whack A Mole
+- [x] [Whack A Mole](30-Whack-A-Mole/index.html)
