@@ -48,14 +48,17 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 20px;
   font-family: monospace;
+  text-align: center;
+  padding: 5px;
 }
 
 .items:hover {
   box-shadow: inset -2px -2px 5px #ffffff, inset 2px 2px 5px #d1d9e6;
   border-bottom: 1.5px solid purple;
   transition: all 0.2s ease-in-out;
+  font-size: 22px;
 }
 
 a {
