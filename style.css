@@ -1,6 +1,6 @@
 body {
   background: #ebecf0;
-  padding: 30px;
+  margin: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,7 +8,7 @@ body {
 
 .title {
   font-family: "Molle", cursive;
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 0;
   letter-spacing: 1.2px;
   color: #000000de;
@@ -26,7 +26,7 @@ h3 {
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 50px;
-  width: 70vw;
+  width: 80vw;
   visibility: hidden;
 }
 
