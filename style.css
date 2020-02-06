@@ -66,7 +66,8 @@ h3 {
 
 .items:hover {
   box-shadow: inset -2px -2px 5px #ffffff, inset 2px 2px 5px #d1d9e6;
-  border-bottom: 1.5px solid #000000ce;
+  /* border-top: 2px solid #00000031; */
+  /* border-left: 2px solid #00000031; */
   transition: all 0.2s ease-in-out;
   font-size: 22px;
   font-weight: bolder;
