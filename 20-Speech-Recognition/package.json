@@ -5,12 +5,14 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "dev": "browser-sync start --directory --server --files \"*.css, *.html, *.js\""
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.6.1",
+    "browser-sync": "^2.12.5 <2.23.2"
   },
   "keywords": []
 }
