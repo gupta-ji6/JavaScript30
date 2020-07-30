@@ -1,6 +1,11 @@
+:root {
+  --bg-color: #ebecf0;
+  --text-color: #000000de;
+}
+
 body {
-  background: #ebecf0;
-  margin: 30px 0px;
+  background: var(--bg-color);
+  margin: 30px 0px 0px 0px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -12,12 +17,12 @@ body {
   font-size: 50px;
   margin-bottom: 0;
   letter-spacing: 1.2px;
-  color: #000000de;
+  color: var(--text-color);
 }
 
 .subtitle {
   font-family: monospace;
-  color: #000000de;
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -90,3 +95,24 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.footer {
+  height: 12vh;
+  width: 100vw;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(235,236,240,1) 90%); */
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.footer > a {
+  color: var(--bg-color);
+  font-weight: bolder;
+}
+
