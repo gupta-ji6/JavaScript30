@@ -23,8 +23,8 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Sort Without Articles](17-Sort-Without-Articles/index.html)
 - [x] [Adding Up Times with Reduce](18-Add-Time-With-Reduce/index.html)
 - [x] [Webcam Fun](19-Webcam-Fun/index.html)
-- [x] Speech Detection
-- [x] Geolocation
+- [x] [Speech Detection](20-Speech-Recognition/index.html)
+- [x] [Geolocation](21-Geolocation/index.html)
 - [x] [Follow Along Link Highlighter](22-Follow-Along-Link/index.html)
 - [ ] Speech Synthesis
 - [x] [Sticky Nav](24-Sticky-Nav/index.html)
