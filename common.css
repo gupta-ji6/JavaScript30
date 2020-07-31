@@ -1,0 +1,18 @@
+.project-tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 0px 3px 3px 0px;
+    color: black;
+    font-weight: bolder;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    font-family: monospace;
+    transition-timing-function: linear;
+  }
