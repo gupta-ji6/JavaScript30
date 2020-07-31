@@ -26,7 +26,7 @@ Participating in and completing 30 day [Vanilla JS challenge (#JavaScript30)](ht
 - [x] [Speech Detection](20-Speech-Recognition/index.html)
 - [x] [Geolocation](21-Geolocation/index.html)
 - [x] [Follow Along Link Highlighter](22-Follow-Along-Link/index.html)
-- [ ] Speech Synthesis
+- [x] [Speech Synthesis](23-Speech-Synthesis/index.html)
 - [x] [Sticky Nav](24-Sticky-Nav/index.html)
 - [x] [Event Capture, Propogation, Bubbling and Once](25-EventCapture-Propogation-Bubbling/index.html)
 - [x] [Stripe Follow Along Nav](26-Stripe-Nav/index.html)
