@@ -103,10 +103,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: inset -4px -4px 7px #000000, inset 4px 4px 7px var(--bg-color);
-  /* background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(235,236,240,1) 90%); */
-  /* background-color: var(--text-color); */
+  box-shadow: inset -3px -3px 7px #000000, inset 3px 3px 7px var(--bg-color);
   background-color: rgb(34, 34, 34);
   color: var(--bg-color);
   font-family: monospace;
