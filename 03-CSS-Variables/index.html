@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Scoped CSS Variables and JS</title>
     <link href="src/styles.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="../common.css" type="text/css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -23,6 +24,12 @@
     />
   </head>
   <body>
+    <a href="https://javascript30.ayushgupta.tech" target="_blank">
+      <div class="project-tag" style="background-color: white">
+        <div class="tag-num">#3</div>
+        <div class="tag-text">of JavaScript30</div>
+      </div>
+    </a>
     <h2>Update CSS Variables with <span class="hl">JS</span></h2>
 
     <div class="controls">
@@ -50,9 +57,20 @@
 
       <label for="base">Base Color</label>
       <input id="base" type="color" name="base" value="#ffc600" />
+
+      <label for="border-radius">Border Radius:</label>
+      <input
+        id="border-radius"
+        type="range"
+        name="border-radius"
+        min="0"
+        max="50"
+        value="10"
+        data-sizing="px"
+      />
     </div>
 
-    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" />
+    <img src="https://source.unsplash.com/featured/?dog" />
 
     <script src="src/index.js"></script>
   </body>
