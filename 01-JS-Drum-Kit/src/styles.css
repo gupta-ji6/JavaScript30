@@ -20,6 +20,10 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 h1 {
@@ -34,10 +38,6 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .key {
