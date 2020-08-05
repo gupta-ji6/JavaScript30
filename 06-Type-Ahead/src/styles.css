@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  background: #ffc600;
+  background-image: url("http://thepatternlibrary.com/img/n.jpg");
+  background-color: #D8C547;
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
