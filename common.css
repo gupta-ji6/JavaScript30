@@ -3,8 +3,9 @@
     top: 0;
     left: 0;
     background-color: yellow;
-    border: 1px solid yellow;
-    border-radius: 0px 3px 3px 0px;
+    border: 1px solid transparent;
+    /* border-radius: 0px 3px 3px 0px; */
+    border-bottom-right-radius: 3px;
     color: black;
     font-weight: bolder;
     height: 4vh;
@@ -15,4 +16,5 @@
     padding: 5px 15px;
     font-family: monospace;
     transition-timing-function: linear;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
