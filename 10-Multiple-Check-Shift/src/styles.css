@@ -1,6 +1,7 @@
 html {
   font-family: sans-serif;
-  background: #ffc600;
+  background: #CBDEE6;
+  background-image: url("http://thepatternlibrary.com/img/aq.jpg");
 }
 .inbox {
   max-width: 400px;
