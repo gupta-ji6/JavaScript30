@@ -1,0 +1,11 @@
+body {
+    background-image: url("http://thepatternlibrary.com/img/u.png");
+    background-color: #FFA23B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bolder;
+}
