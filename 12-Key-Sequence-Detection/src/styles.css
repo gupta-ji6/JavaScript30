@@ -1,0 +1,17 @@
+html,
+body {
+  background-image: url('http://thepatternlibrary.com/img/ae.jpg');
+  background-color: #1e1e1e;
+  height: 100vh;
+}
+
+.title {
+  position: absolute;
+  width: 60vw;;
+  left: 20vw;
+  right: 20vw;
+  margin-top: 10vh;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}

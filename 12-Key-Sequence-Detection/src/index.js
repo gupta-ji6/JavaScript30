@@ -1,7 +1,8 @@
-import ConfettiGenerator from "confetti-js";
+// import ConfettiGenerator from "confetti-js";
 const pressed = [];
 const secretCode = "guptaji";
-let confettiSettings = { target: "my-canvas", animate: true };
+console.info(`Hint: Type ${secretCode} on your keyboard`);
+let confettiSettings = { target: "my-canvas", animate: true,size: 4, clock: 100 };
 
 window.addEventListener("keyup", e => {
   pressed.push(e.key);
