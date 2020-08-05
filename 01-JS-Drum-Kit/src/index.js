@@ -40,5 +40,6 @@ const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach((key) => {
   key.addEventListener('transitionend', removeTransition);
   key.addEventListener('touchstart', playSoundOnTouch, false);
+  key.addEventListener('click', playSoundOnTouch);
 });
 window.addEventListener('keydown', playSound);
