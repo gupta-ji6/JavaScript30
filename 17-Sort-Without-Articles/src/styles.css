@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: url("http://thepatternlibrary.com/img/an.jpg");
+  background: url('../../assets/asteroids.jpg');
   display: flex;
   align-items: center;
   flex-direction: column;

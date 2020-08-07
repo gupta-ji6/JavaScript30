@@ -7,10 +7,10 @@
 
 body {
   text-align: center;
-  background-image: url("http://thepatternlibrary.com/img/b.jpg");
+  background-image: url('../../assets/fancy-pants.jpg');
   background-color: #242329;
   color: white;
-  font-family: "helvetica neue", sans-serif;
+  font-family: 'helvetica neue', sans-serif;
   font-weight: 100;
   font-size: 50px;
 }

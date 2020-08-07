@@ -1,7 +1,7 @@
 html {
   font-family: sans-serif;
   background: #CBDEE6;
-  background-image: url("http://thepatternlibrary.com/img/aq.jpg");
+  background-image: url('../../assets/plaid.jpg');
 }
 .inbox {
   max-width: 400px;

@@ -4,7 +4,7 @@ html {
 }
 body {
   margin: 0;
-  background-image: url("http://thepatternlibrary.com/img/at.png");
+  background-image: url('../../assets/celebration.png');
 }
 .hero {
   min-height: 100vh;

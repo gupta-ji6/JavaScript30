@@ -1,5 +1,5 @@
 body {
-    background-image: url("http://thepatternlibrary.com/img/aw.png");
+    background-image: url('../../assets/green-goblin.png');
     background-color: #8AAA00;
     display: flex;
     justify-content: center;
