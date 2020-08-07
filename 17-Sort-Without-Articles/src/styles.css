@@ -1,17 +1,18 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
-  background-size: cover;
+  background: url("http://thepatternlibrary.com/img/an.jpg");
   display: flex;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+  padding: 30px;
 }
+
 #bands {
   list-style: inside square;
   font-size: 20px;
-  background: white;
+  background: #fb7813;
   width: 500px;
   margin: auto;
   padding: 0;
@@ -21,6 +22,7 @@ body {
 #bands li {
   border-bottom: 1px solid #efefef;
   padding: 20px;
+  color: #f7f7ee;
 }
 
 #bands li:last-child {
