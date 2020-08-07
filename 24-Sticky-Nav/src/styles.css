@@ -1,6 +1,28 @@
+#project-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  border: 1px solid transparent;
+  /* border-radius: 0px 3px 3px 0px; */
+  border-bottom-right-radius: 3px;
+  color: black;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: medium;
+  height: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  transition-timing-function: linear;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
 html {
   box-sizing: border-box;
-  background: #eeeeee;
+  background: #444f5a;
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
@@ -19,7 +41,7 @@ body {
 .site-wrap {
   max-width: 700px;
   margin: 70px auto;
-  background: white;
+  background: #ff9999;
   padding: 40px;
   text-align: justify;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
@@ -42,13 +64,13 @@ header {
 }
 
 h1 {
-  color: white;
+  color: #ffc8c8;
   font-size: 7vw;
   text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav {
-  background: black;
+  background: #ff9999;
   top: 0;
   width: 100%;
   transition: all 0.5s;
