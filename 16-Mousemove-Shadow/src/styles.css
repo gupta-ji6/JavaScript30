@@ -1,18 +1,25 @@
 html {
-  color: black;
+  color: white;
   font-family: sans-serif;
 }
 body {
   margin: 0;
+  background-image: url("http://thepatternlibrary.com/img/at.png");
 }
 .hero {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  flex-direction: column;
+  color: white;
 }
 h1 {
   text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
   font-size: 100px;
+}
+
+h7{
+  color: lightcoral;
+  font-family: monospace;
 }
