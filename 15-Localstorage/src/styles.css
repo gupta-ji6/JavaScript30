@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  background: url("http://wes.io/hx9M/oh-la-la.jpg") center no-repeat;
-  background-size: cover;
+  background-color: #184d47;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%2396bb7c' fill-opacity='0.16' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ html {
 }
 
 svg {
-  fill: white;
+  fill: #eebb4d;
   background: rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 50%;
@@ -29,7 +29,7 @@ svg {
   padding: 20px;
   max-width: 350px;
   background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 10px #96bb7c;
 }
 
 h2 {
@@ -87,10 +87,15 @@ h2 {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.delete {
-  background-color: rgba(255, 0, 0, 0.527);
+.delete, .check-uncheck {
+  background-color: #184d47;
+  color: #d6efc7;
 }
 
-.check-uncheck {
-  background-color: rgba(0, 255, 255, 0.473);
+input[type="submit"] {
+  background-color: #eebb4d;
+}
+
+input[type="text"] {
+  border: 1px solid #96bb7c;
 }
