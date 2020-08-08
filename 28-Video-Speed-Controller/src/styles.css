@@ -4,9 +4,18 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #4c4c4c url("https://unsplash.it/1500/900?image=1021");
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('http://www.lisbonazulejos.com/assets/images/svg/azulejo-26.svg');
+  /* opacity: 0.5; */
   font-family: sans-serif;
+  flex-direction: column;
+}
+h1 {
+  color: #fff;
+  font-size: calc(1em + 2vw);
+  font-weight: 900;
+  text-shadow: 4px 4px 0px #6a82fb, 7px 7px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 5vh;
 }
 
 .wrapper {
@@ -31,7 +40,19 @@ video {
 
 .speed-bar {
   width: 100%;
-  background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  cursor: grab;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
