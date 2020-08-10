@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Countdown Timer</title>
+    <title>Countdown Timer - JavaScript30 by Ayush Gupta</title>
     <link
       href="https://fonts.googleapis.com/css?family=Inconsolata"
       rel="stylesheet"
@@ -28,15 +28,21 @@
     />
   </head>
   <body>
+    <a href="https://javascript30.ayushgupta.tech" target="_blank">
+      <div id="project-tag" style="background-color: white; color: #111111;">
+        <div class="tag-num">#29</div>
+        <div class="tag-text">of JavaScript30</div>
+      </div>
+    </a>
     <div class="timer">
       <div class="timer__controls">
-        <button data-time="20" class="timer__button">20 Secs</button>
-        <button data-time="300" class="timer__button">Work 5</button>
-        <button data-time="900" class="timer__button">Quick 15</button>
-        <button data-time="1200" class="timer__button">Snack 20</button>
-        <button data-time="3600" class="timer__button">Lunch Break</button>
+        <button data-time="20" class="timer__button color">20 Secs</button>
+        <button data-time="300" class="timer__button color">Work 5</button>
+        <button data-time="900" class="timer__button color">Quick 15</button>
+        <button data-time="1200" class="timer__button color">Snack 20</button>
+        <button data-time="3600" class="timer__button color">Lunch Break</button>
         <form name="customForm" id="custom">
-          <input type="text" name="minutes" placeholder="Enter Minutes" />
+          <input type="number" name="minutes" placeholder="Enter Minutes" />
         </form>
       </div>
       <div class="display">

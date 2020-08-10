@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #8e24aa;
-  background: linear-gradient(45deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%);
+  background: #2B2C34;
+  background: url('../../assets/shattered-island.gif')
 }
 
 *,
@@ -51,7 +51,7 @@ body {
 }
 
 .timer__button {
-  background: none;
+  /* background: none; */
   border: 0;
   cursor: pointer;
   color: white;
@@ -70,6 +70,27 @@ body {
   outline: 0;
 }
 
+.color:nth-child(5n+1) {
+  background-color: #7fb069;
+}
+.color:nth-child(5n+2) {
+  background-color: #8963BA;
+}
+.color:nth-child(5n+3) {
+  background-color: #E6AA68;
+}
+.color:nth-child(5n+4) {
+  background-color: #DF6553;
+}
+.color:nth-child(5n+5) {
+  background-color: #1FCBFF;
+}
+
+input {
+  background-color: rgb(214, 214, 214);
+  color: #000;
+}
+
 .display {
   flex: 1;
   display: flex;
@@ -81,4 +102,26 @@ body {
 .display__end-time {
   font-size: 4rem;
   color: white;
+}
+
+#project-tag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: yellow;
+  border: 1px solid transparent;
+  /* border-radius: 0px 3px 3px 0px; */
+  border-top-left-radius: 3px;
+  color: black;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: medium;
+  height: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  transition-timing-function: linear;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
