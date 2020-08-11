@@ -32,11 +32,14 @@ function peep() {
 }
 
 function startGame() {
+  document.querySelector('.btn').textContent = 'Start Game'
   scoreBoard.textContent = 0;
   timeUp = false;
   score = 0;
   peep();
-  setTimeout(() => (timeUp = true), 10000);
+  setTimeout(() => {timeUp = true;
+  document.querySelector('.btn').textContent = 'Game Over, Start again!'
+  }, 10000);
 }
 
 function bonk(e) {
