@@ -2,6 +2,8 @@ const canvas = document.querySelector("#draw");
 const context = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+context.font = "8px";
+context.fillText("Start Painting", window.innerWidth / 2, 50);
 context.strokeStyle = "#BADA55";
 context.lineJoin = "round";
 context.lineCap = "round";
