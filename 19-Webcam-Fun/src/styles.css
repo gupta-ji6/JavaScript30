@@ -1,5 +1,10 @@
 html {
   box-sizing: border-box;
+  font-size: 10px;
+  background-color: #f46036;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232e294e' fill-opacity='0.2'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  padding: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 *,
@@ -8,16 +13,39 @@ html {
   box-sizing: inherit;
 }
 
-html {
-  font-size: 10px;
-  background: #ffc600;
-}
-
 .photobooth {
   background: white;
   max-width: 150rem;
   margin: 2rem auto;
   border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #F46036;
+  font-size: 48px;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  padding-top: 0;
+}
+
+button {
+  height: 5vh;
+  background-color: #2E294E;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  border-radius: 0.3em;
+  margin-bottom: 3vh;
+}
+
+.controls {
+  margin-bottom: 3vh;
 }
 
 /*clearfix*/
@@ -30,13 +58,21 @@ html {
 .photo {
   width: 100%;
   float: left;
+  transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    margin-bottom: 1vh;
 }
 
 .player {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   width: 200px;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+  border-radius: 0.3em;
 }
 
 /*

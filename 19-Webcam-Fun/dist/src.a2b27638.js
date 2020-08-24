@@ -140,6 +140,9 @@ function getVideo() {
 function paintToCanvas() {
   var width = video.videoWidth;
   var height = video.videoHeight;
+  video.style.cssText = '-moz-transform: scale(-1, 1); \
+-webkit-transform: scale(-1, 1); -o-transform: scale(-1, 1); \
+transform: scale(-1, 1); filter: FlipH;';
   canvas.width = width;
   canvas.height = height;
   return setInterval(function () {
@@ -242,7 +245,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36617" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51081" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
