@@ -67,6 +67,10 @@ I have mentioned below the add-ons I added in some of the JavaScript30 projects 
 
   Added Check All, Uncheck All, Delete All buttons.
 
+- 📷 #19 - Webcam fun
+
+  Added mirror image for video.
+
 - 🎮 #30 - Whack A Mole
 
   Notify user about game over.
